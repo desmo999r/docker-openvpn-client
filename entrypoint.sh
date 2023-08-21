@@ -56,7 +56,7 @@ if [ ! -f "$VPN_OVPN" ]; then
 fi
 
 # Hard update the local DNS nameserver
-echo 'nameserver 1.1.1.1' > /etc/resolv.conf
+# echo 'nameserver 1.1.1.1' > /etc/resolv.conf
 
 # Kick off the connection
 echo "
